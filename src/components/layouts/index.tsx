@@ -12,6 +12,7 @@ export function Layout({ children, className }: LayoutInterface) {
   return (
     <div className={cn('w-dvw h-dvh sm:w-dvw sm:dvh')}>
       <Header />
+      Hello ửolds
       <div className={`w-full ${className}`}>{children}</div>
       <Footer />
     </div>
