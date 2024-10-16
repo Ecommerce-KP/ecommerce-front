@@ -1,0 +1,15 @@
+.product_image {
+    transform: translate(25%, 25%);
+    max-width: 190px;
+}
+
+.add_to_cart {
+    opacity: 0;
+    transform: translateY(5px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.product:hover > .add_to_cart {
+    opacity: 1;
+    transform: translateY(0);
+}
